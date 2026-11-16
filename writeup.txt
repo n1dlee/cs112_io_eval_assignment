@@ -1,0 +1,25 @@
+Input and Output Assignment
+Nodirbek Zayniddinov
+
+Both classes compile and pass the local tests. No correctness errors
+were found in these tests. The school autograder passed all three checks, 
+feedback.txt is included.
+
+IOTest reports: All tests passed.
+
+The DoubleFileConverter tests check writing and reading doubles as text,
+individual binary values, and a serialized ArrayList<Double>. Each format
+is tested with a regular list and an empty list. The tests compare the
+original and returned lists, reject an invalid text value, and confirm
+that three binary doubles occupy 24 bytes.
+
+The TwoBitRandomAccessFile tests check all four constructors, writing and
+reading values across two bytes, and the expected byte values 27 and 228.
+They confirm that updating one value preserves its neighbors, that values
+survive closing and reopening, and that clear resets all values without
+changing the file size. They also check size rounding, empty files,
+negative and out-of-range positions, and values outside 0 through 3.
+
+The converter methods load the entire list into memory, so very large
+files may require a lot of memory. The two-bit file stores four values
+per byte, so its capacity is rounded up to a whole number of bytes.
