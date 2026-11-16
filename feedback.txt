@@ -1,0 +1,39 @@
+Testing initiated. Mon Nov 16 12:17:47 AM EST 2026
+DoubleFileConverter.java submitted.
+TwoBitRandomAccessFile.java submitted.
+Compilation of all java files succeeded.
+Testing DoubleFileConverter:
+JUnit version 4.13.2
+.......
+Time: 0.164
+
+OK (7 tests)
+
+Testing TwoBitRandomAccessFile:
+JUnit version 4.13.2
+.Tested TwoBitRandomAccessFile constructor taking String filename
+Tested TwoBitRandomAccessFile constructor taking File
+Tested TwoBitRandomAccessFile constructor taking String filename and numTwoBits
+Tested TwoBitRandomAccessFile constructor taking File and numTwoBits
+.Creating TwoBitRandomAccessFile with numTwoBits 123
+  Setting random values to all positions in random order...
+  Getting and checking values from all positions in random order...
+Creating TwoBitRandomAccessFile with numTwoBits 124
+  Setting random values to all positions in random order...
+  Getting and checking values from all positions in random order...
+Creating TwoBitRandomAccessFile with numTwoBits 125
+  Setting random values to all positions in random order...
+  Getting and checking values from all positions in random order...
+Creating TwoBitRandomAccessFile with numTwoBits 126
+  Setting random values to all positions in random order...
+  Getting and checking values from all positions in random order...
+.Creating TwoBitRandomAccessFile with numTwoBits 155
+  Setting random values to all positions...
+  Calling clear...
+  Getting and checking that all values have been cleared...
+
+Time: 0.035
+
+OK (3 tests)
+
+Testing completed. Mon Nov 16 12:17:49 AM EST 2026
